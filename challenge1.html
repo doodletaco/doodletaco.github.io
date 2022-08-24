@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Teaching Challenge #1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Introduction to the Information Age</h1>
+
+    <p>The information age is defined by the movement of society from physical to digital technology, allowing people to access and share an incredibly large amounnt of information.</p>
+
+    <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Replica-of-first-transistor.jpg" alt="A replica of the first transistor, invented at Bell Labs, December 23, 1947."/>
+
+    <button type="button" onclick="show()" id=btnID>Show Image</button>
+
+    <script>
+        function show() {
+
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('image')
+                    .style.display = "block";
+
+            document.getElementById('btnID')
+                    .style.display = "none";
+        }
+    </script>
+
+    <h2>The Significance of Bell Labs</h2>
+
+    <p>Bell Labs is credited with beginning the information age, due to the invention of the transistor, a device used to amplify electronic signals, which was much more efficient than a vacuum tube. This has been improved upon and is a key part for many modern devices, like radios and computers.</p>
+
+    <h2>A Contemporary Bell Labs</h2>
+
+    <p>Although Bell Labs does not hold as much fame as it once did, other companies have taken its place, though less centralized, with many companies innovating on many things. One example could be FrameWork, who is working on bringing repairable laptops back, while still fitting modern aesthetic sensibilities. Universities may also be important, as they are also often research institutions.</p>
+
+    <br>
+
+    <p>Created for ISTA100 by Doodle Biehle</p>
+</body>
+</html>
