@@ -1,0 +1,57 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Teaching Challenge #2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>The Transistor and other Inventions</h1>
+    <p>The transistor was a key invention to the information age.</p>
+
+    <img id="image2" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Transbauformen.jpg" alt="Assorted discrete transistors. A line in the bottom left indicates the scale of 10mm, which shows the relative size of the transistors."/>
+
+    <button type="button" onclick="show2()" id=btnID2>Show Image</button>
+
+    <script>
+        function show2() {
+
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('image2')
+                    .style.display = "block";
+
+            document.getElementById('btnID2')
+                    .style.display = "none";
+        }
+    </script>
+
+    <h2>What is a Transistor?</h2>
+    <p>A transistor functions in a similar way to a switch, but without moving parts by using properties of p and n-type semiconductors in order to amplify a signal. This was previously done through vacuum tubes, but those are much larger. A transistor allowed technology to become more accessible and compact.</p>
+
+    <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/OptischerTelegraf.jpg/1024px-OptischerTelegraf.jpg" alt="A replica of one of Chappe's semaphore towers in Nalbach, Germany."/>
+
+    <button type="button" onclick="show()" id=btnID>Show Image</button>
+
+    <script>
+        function show() {
+
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('image')
+                    .style.display = "block";
+
+            document.getElementById('btnID')
+                    .style.display = "none";
+        }
+    </script>
+
+    <h2>Another Innovation: Optical Communication</h2>
+    <p>Optical communication is the use of light in order to transmit information. An early example is the semaphore telegraph, using towers with arms in order to relay information from one station to the next, until it reaches its destination ("Optical Telegraph.")<br>A more recent development is the use of a silicon-based device that uses all-optical communication at >100Gb/s. The goal of this is to continue Moore's Law, and allow even more data to be communicated on a chip (Pool.)</p>
+
+    <h3>Sources</h3>
+    <p>"Optical Telegraph." Wikipedia. https://en.wikipedia.org/wiki/Optical_telegraph.<br><br>Pool, Rebecca. "All-optical communication comes of age." SPIE, 12 March 2010. https://spie.org/news/03-10-all-optical-communication-pool.</p>
+
+    <p><br><br>Created for ISTA100 by Doodle Biehle</p>
+</body>
